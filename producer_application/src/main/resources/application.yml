@@ -11,4 +11,4 @@ spring:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
 
 topic:
-  name: "my-topic"
+  name: my-topic
