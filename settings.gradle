@@ -1,0 +1,6 @@
+rootProject.name = 'kafka'
+include 'kafkabroker'
+include 'consumer_application01'
+include 'consumer_application02'
+include 'producer_application'
+
