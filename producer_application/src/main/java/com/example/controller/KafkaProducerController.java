@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class KafkaProducerController {
 
     private final KafkaProducerService kafkaProducerService;
+
     @PostMapping
     public ResponseEntity<Void> sendMassage(
             @RequestParam String message) {
